@@ -1,0 +1,23 @@
+
+### Development ###
+use config commands in app.py
+pipenv install --> add necessary libs to pipfile
+pipenv shell --> run virtual environment 
+flask run --> run the app 
+use config commands in app.py
+
+### Deploy Live ###
+remove config commands in app.py
+create requirements.txt file with (pipfreeze > requirements.txt)
+
+install gunicorn lib
+create Procfile containing (web: gunicorn app:app -t 120)
+deploy with Heroku --> CLI or GitHub
+### app.py ###
+main flask app file
+
+### Static ###
+contains template for css
+
+### Templates ###
+contains templates for html 

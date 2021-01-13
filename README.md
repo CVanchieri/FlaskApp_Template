@@ -1,2 +1,5 @@
 # FlaskApp_Template
-A Template for a Flask application deployed locally or live.
+
+This is a template for a Flask application deployed locally or live, more notes in the notes.txt file.
+
+
